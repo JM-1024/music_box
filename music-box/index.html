@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="音乐,QQ音乐,在线听歌,音乐下载,音乐播放器,音乐网站,MV,巅峰榜,音乐排行榜,翻译歌曲,热门歌曲,经典老歌">
+    <meta name="description" content="QQ音乐是腾讯公司推出的一款免费音乐服务，海量音乐在线试听、最流行音乐在线首发、歌词翻译、手机铃声下载、高品质音乐试听、正版音乐下载、免费空间背景音乐设置、MV观看等，是互联网音乐播放和下载的首选">
+    <meta name="mobile-agent" content="format==[html5];url=http://m.y.qq.com">
+    <title>QQ音乐-千万正版音乐海量无损曲库新歌热歌天天畅听的高品质音乐平台！</title>
+    <meta name="theme-color" content="#31c27c">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/music.css">
+    <link rel="stylesheet" href="images/icomoon/style.css">
+    <script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="js/music.js"></script>
+
+</head>
+<body>
+
+    <div class="banner">
+        <!-- banner begin-->
+        <ul>
+            <li datasrc="music/莫文蔚-盛夏的果实.mp3" title="莫文蔚-盛夏的果实" >
+                <img src="images/1.jpg" width="65px">
+            </li>
+            <li datasrc="music/徐誉滕-天使的翅膀.mp3" title="徐誉滕-天使的翅膀" >
+                <img src="images/2.jpg" width="85px">
+            </li>
+            <li datasrc="music/纸短情长-刘艺佳.mp3" title="刘艺佳-纸短情长" >
+                <img src="images/3.jpg" width="85px">
+            </li>
+            <li datasrc="music/小蓝背心-一起去风里吧.mp3" title="小蓝心-起风了" >
+                <img src="images/4.jpg" width="65px">
+            </li>
+        </ul>
+        <!-- banner end-->
+        <!-- music begin-->
+        <div class="music">
+            <div class="m_img">
+                <img src="images/1.jpg">
+            </div>
+            <div class="m_text">莫文蔚-盛夏的果实</div>
+            <div class="m_btn">
+                <a href="#" class="m_prev" title="上一首"></a>
+                <a href="#" class="m_play" title="播放"></a>
+                <a href="#" class="m_next" title="下一首"></a>
+            </div>
+            <!-- hidden play panel??? -->
+            <div class="m_close"></div>
+            <audio src="music/莫文蔚-盛夏的果实.mp3" class="m_mp3" type="audio/mepg" volume=0></audio>
+            <!-- volume -->
+            <input class="range" type="range" value="30" min="0" max="100"> 
+            <!-- music time -->
+            <input class="playbar" type="range" value="0" min="0">
+
+        </div>
+        <!-- music end-->
+
+
+    </div>
+</body>
+</html>
